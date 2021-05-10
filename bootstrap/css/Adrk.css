@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  resize:vertical;
+}
+
+input[type=submit] {
+  background-color:cadetblue;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightblue;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+
+.column {
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;	
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+	text-align: center;
+}
+
+
+
